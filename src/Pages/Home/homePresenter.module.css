@@ -1,0 +1,26 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
