@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    color: red;
+    margin: 0 1rem;
+}
+
+.content {
+    visibility: hidden;
+}
+
+.container:hover .label {
+    transition: all 0.3s ease-in-out;
+    transform: translateX(1rem);
+}
+
+.container:hover .content {
+    transition: all 0.3s ease-in-out;
+    transform: translateX(1rem);
+
+    visibility: visible;
+    animation: dropdown 0.5s ease-in-out;
+}
+
+@keyframes dropdown {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
