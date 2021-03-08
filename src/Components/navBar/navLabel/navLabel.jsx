@@ -1,14 +1,15 @@
 import React from "react";
-import NavContent from "../navContent/navContent";
+import NavContents from "../navContents/navContents";
 import styles from "./navLabel.module.css";
 
-const NavLabel = (props) => {
+const NavLabel = ({ title, contents }) => {
     return (
         <ul className={styles.container}>
-            <span className={styles.label}>Label</span>
-            <div className={styles.content}>
-                <NavContent />
-                <NavContent />
+            <span className={styles.label}>{title}</span>
+            <div className={styles.contents}>
+                {contents.map((item) => {
+                    return <NavContents item={item} />;
+                })}
             </div>
         </ul>
     );

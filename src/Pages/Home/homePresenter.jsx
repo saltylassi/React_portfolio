@@ -7,7 +7,7 @@ const HomePresenter = (props) => {
     return (
         <div className={styles.container}>
             <MainHeader />
-            <div className={styles.content}>
+            <div className={styles.contents}>
                 <NavBar />
                 <h1 className={styles.title}>Home</h1>
             </div>

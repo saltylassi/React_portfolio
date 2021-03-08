@@ -1,32 +1,47 @@
 .container {
     display: flex;
-    justify-content: flex-start;
-    color: red;
+    flex-direction: column;
+    align-items: center;
     margin: 0 1rem;
 }
 
-.content {
-    visibility: hidden;
+.label {
+    margin: 0.5rem 0;
+    font-weight: 700;
+    font-size: 1.2rem;
+    animation: labelAnim 2s ease-in-out infinite;
 }
 
-.container:hover .label {
+@keyframes labelAnim {
+    0% {
+        transform: translateY(0.1rem);
+    }
+    50% {
+        transform: translateY(-0.2rem);
+    }
+    100% {
+        transform: translateY(0.1rem);
+    }
+}
+
+/* .container:hover .label {
     transition: all 0.3s ease-in-out;
     transform: translateX(1rem);
-}
+} */
 
-.container:hover .content {
+/* .container:hover .contents {
     transition: all 0.3s ease-in-out;
     transform: translateX(1rem);
 
-    visibility: visible;
-    animation: dropdown 0.5s ease-in-out;
-}
+    /* visibility: visible;
+    animation: dropdown 0.5s ease-in-out; 
+} */
 
-@keyframes dropdown {
+/* @keyframes dropdown {
     from {
         opacity: 0;
     }
     to {
         opacity: 1;
     }
-}
+} */
