@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/React_portfolio/static/css/main.b964f634.chunk.css",
+    "main.js": "/React_portfolio/static/js/main.f86efb45.chunk.js",
+    "main.js.map": "/React_portfolio/static/js/main.f86efb45.chunk.js.map",
+    "runtime-main.js": "/React_portfolio/static/js/runtime-main.5cfcc80a.js",
+    "runtime-main.js.map": "/React_portfolio/static/js/runtime-main.5cfcc80a.js.map",
+    "static/js/2.fed3c458.chunk.js": "/React_portfolio/static/js/2.fed3c458.chunk.js",
+    "static/js/2.fed3c458.chunk.js.map": "/React_portfolio/static/js/2.fed3c458.chunk.js.map",
+    "index.html": "/React_portfolio/index.html",
+    "static/css/main.b964f634.chunk.css.map": "/React_portfolio/static/css/main.b964f634.chunk.css.map",
+    "static/js/2.fed3c458.chunk.js.LICENSE.txt": "/React_portfolio/static/js/2.fed3c458.chunk.js.LICENSE.txt",
+    "static/media/1.5853a37a.png": "/React_portfolio/static/media/1.5853a37a.png",
+    "static/media/1.7e6a4990.jpg": "/React_portfolio/static/media/1.7e6a4990.jpg",
+    "static/media/10.f3eeade0.jpg": "/React_portfolio/static/media/10.f3eeade0.jpg",
+    "static/media/11.e1c72556.jpg": "/React_portfolio/static/media/11.e1c72556.jpg",
+    "static/media/2.45741612.png": "/React_portfolio/static/media/2.45741612.png",
+    "static/media/2.ec2c5abb.jpg": "/React_portfolio/static/media/2.ec2c5abb.jpg",
+    "static/media/3.20f1a9aa.jpg": "/React_portfolio/static/media/3.20f1a9aa.jpg",
+    "static/media/3.bf56e757.png": "/React_portfolio/static/media/3.bf56e757.png",
+    "static/media/4.e751bf7a.jpg": "/React_portfolio/static/media/4.e751bf7a.jpg",
+    "static/media/5.89760421.jpg": "/React_portfolio/static/media/5.89760421.jpg",
+    "static/media/6.5db8c3f1.jpg": "/React_portfolio/static/media/6.5db8c3f1.jpg",
+    "static/media/7.ad0295e5.jpg": "/React_portfolio/static/media/7.ad0295e5.jpg",
+    "static/media/8.f2a58acf.jpg": "/React_portfolio/static/media/8.f2a58acf.jpg",
+    "static/media/9.d0eaef99.jpg": "/React_portfolio/static/media/9.d0eaef99.jpg",
+    "static/media/ec2.455e8b7f.png": "/React_portfolio/static/media/ec2.455e8b7f.png",
+    "static/media/graphQL.6b2ffccc.png": "/React_portfolio/static/media/graphQL.6b2ffccc.png",
+    "static/media/js.db6c7238.png": "/React_portfolio/static/media/js.db6c7238.png",
+    "static/media/node.e71346fe.png": "/React_portfolio/static/media/node.e71346fe.png",
+    "static/media/react.20adfb35.png": "/React_portfolio/static/media/react.20adfb35.png",
+    "static/media/reactNative.e4d3b8e1.png": "/React_portfolio/static/media/reactNative.e4d3b8e1.png",
+    "static/media/styled.3b697817.png": "/React_portfolio/static/media/styled.3b697817.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5cfcc80a.js",
+    "static/js/2.fed3c458.chunk.js",
+    "static/css/main.b964f634.chunk.css",
+    "static/js/main.f86efb45.chunk.js"
+  ]
+}
