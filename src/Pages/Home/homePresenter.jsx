@@ -26,11 +26,11 @@ const HomePresenter = (props) => {
                     <span className={styles.subTitle}>
                         "너는 지금까지 작성한 코드의 수를 기억하나?"
                     </span>
-                    {/* <img
+                    <img
                         src={ReactLogo}
                         alt="react logo"
                         className={styles.logo}
-                    /> */}
+                    />
                 </div>
             </div>
         </div>

@@ -1,8 +1,31 @@
 .container {
     width: 100vw;
-    height: 100vh;
     background-color: black;
     animation: fadeIn 2s ease-in-out;
+}
+
+@media all and (min-height: 300px) {
+    .container {
+        height: 200vh;
+    }
+}
+
+@media all and (min-height: 500px) {
+    .container {
+        height: 190vh;
+    }
+}
+
+@media all and (min-height: 800px) {
+    .container {
+        height: 120vh;
+    }
+}
+
+@media all and (min-height: 1200px) {
+    .container {
+        height: 100vh;
+    }
 }
 
 /* .contents {
@@ -52,6 +75,7 @@
 }
 
 .logo {
+    margin-top: 10rem;
     width: 10rem;
     animation: rotateLogo 4s linear infinite;
 }
