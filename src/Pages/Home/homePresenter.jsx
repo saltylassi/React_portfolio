@@ -2,6 +2,7 @@ import React from "react";
 import MainHeader from "../../Components/mainHeader/mainHeader";
 import NavBar from "../../Components/navBar/navBar";
 import styles from "./homePresenter.module.css";
+import ReactLogo from "../../assets/images/logos/logo512.png";
 
 const HomePresenter = (props) => {
     return (
@@ -26,7 +27,7 @@ const HomePresenter = (props) => {
                         "너는 지금까지 작성한 코드의 수를 기억하나?"
                     </span>
                     <img
-                        src="/logo512.png"
+                        src={ReactLogo}
                         alt="react logo"
                         className={styles.logo}
                     />

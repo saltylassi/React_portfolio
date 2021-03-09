@@ -14,12 +14,12 @@ import TL9 from "../../../assets/images/twoluck/9.jpg";
 import TL10 from "../../../assets/images/twoluck/10.jpg";
 import TL11 from "../../../assets/images/twoluck/11.jpg";
 
-import reactNative from "../../../assets/images/logos/reactNative.png";
-import EC2 from "../../../assets/images/logos/ec2.png";
-import JS from "../../../assets/images/logos/js.png";
-import Node from "../../../assets/images/logos/node.png";
-import Styled from "../../../assets/images/logos/styled.png";
-import GraphQL from "../../../assets/images/logos/graphQL.png";
+import reactNativeLogo from "../../../assets/images/logos/reactNative.png";
+import EC2Logo from "../../../assets/images/logos/ec2.png";
+import JSLogo from "../../../assets/images/logos/js.png";
+import NodeLogo from "../../../assets/images/logos/node.png";
+import StyledLogo from "../../../assets/images/logos/styled.png";
+import GraphQLLogo from "../../../assets/images/logos/graphQL.png";
 
 import { useRef } from "react";
 
@@ -154,11 +154,23 @@ const LSPresenter = (props) => {
                             className={styles.logo}
                             alt="logo"
                         />
-                        <img src={EC2} className={styles.logo} alt="logo" />
-                        <img src={JS} className={styles.logo} alt="logo" />
-                        <img src={Node} className={styles.logo} alt="logo" />
-                        <img src={Styled} className={styles.logo} alt="logo" />
-                        <img src={GraphQL} className={styles.logo} alt="logo" />
+                        <img src={EC2Logo} className={styles.logo} alt="logo" />
+                        <img src={JSLogo} className={styles.logo} alt="logo" />
+                        <img
+                            src={NodeLogo}
+                            className={styles.logo}
+                            alt="logo"
+                        />
+                        <img
+                            src={StyledLogo}
+                            className={styles.logo}
+                            alt="logo"
+                        />
+                        <img
+                            src={GraphQLLogo}
+                            className={styles.logo}
+                            alt="logo"
+                        />
                     </div>
                     <div className={styles.textContainer}>
                         <span className={styles.text}>
