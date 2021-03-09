@@ -179,8 +179,8 @@ const LSPresenter = (props) => {
                         </span>
                         <span className={styles.text}>
                             학부과정, 사이드프로젝트 등 제가 진행했던 모든
-                            프로젝트를 통틀어서 가장 규모가 큰 프로젝트라고
-                            생각합니다.
+                            프로젝트를 통틀어서 가장 규모가 컸던
+                            프로젝트였습니다.
                         </span>
                         <span className={styles.text}>
                             프론트엔드는 ReactNative와 styledComponents를,

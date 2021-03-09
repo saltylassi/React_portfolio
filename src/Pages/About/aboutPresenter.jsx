@@ -85,8 +85,8 @@ const AboutPresenter = (props) => {
                             깨닫게 해주었습니다.
                         </span>
                         <span className={styles.text}>
-                            새로웠죠. 수박 겉핥기로 익혔으면 자신감만 높아진다고
-                            합니다. 제가 딱 그 상황이었습니다.
+                            새로웠죠. 수박 겉 핥기 식으로 익혔으면 자신감만
+                            높아진다고 합니다. 제가 딱 그 상황이었습니다.
                         </span>
                         <span className={styles.text}>
                             전공생이라고는 하나 고작 3학년 학부과정 마친 상황에,
@@ -106,8 +106,8 @@ const AboutPresenter = (props) => {
                             모르겠습니다. 하지만 지금은 그렇지 않습니다.
                         </span>
                         <span className={styles.text}>
-                            지금도 아직까진 수박 겉핥기지만, 제가 하고 싶은 일을
-                            스스로 선택했다는 것. 이게 가장 중요하다고
+                            지금도 아직까진 수박 겉 핥기 수준이지만, 제가 하고
+                            싶은 일을 스스로 선택했다는 것. 이게 가장 중요하다고
                             생각합니다.
                         </span>
                         <span className={styles.text}>
