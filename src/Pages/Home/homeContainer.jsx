@@ -1,7 +1,6 @@
 import React from "react";
 import Loader from "react-loader-spinner";
-import { useState } from "react";
-import { useEffect } from "react/cjs/react.development";
+import { useState, useEffect } from "react";
 import HomePresenter from "./homePresenter";
 
 const HomeContainer = () => {
@@ -10,6 +9,7 @@ const HomeContainer = () => {
     useEffect(() => {
         setTimeout(() => setLoaded(true), 1500);
     }, []);
+
     return loaded ? (
         <HomePresenter />
     ) : (
