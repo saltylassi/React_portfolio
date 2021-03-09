@@ -1,7 +1,3 @@
 portfolio
 
--[X]mainHeader -[X]navBar
--[]navBarContent(parent)
--[]navBarContent(child)
-
--[]mainContent
+-[X]mainHeader -[X]navBar -[x]navBarContent(parent) -[x]navBarContent(child) -[x]mainContent
