@@ -24,7 +24,7 @@ const NavBar = (props) => {
                 title={"REACT"}
                 items={[
                     { contents: "reheaven", dest: "/project/reheaven" },
-                    { contents: "portfolio", dest: "/project/portfolio" },
+                    // { contents: "portfolio", dest: "/project/portfolio" },
                 ]}
             />
             <NavLabel

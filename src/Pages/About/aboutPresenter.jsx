@@ -79,9 +79,10 @@ const AboutPresenter = (props) => {
                             해결책이 존재하는지는 중요하지 않았습니다.
                         </span>
                         <span className={styles.text}>
-                            일일이 한 땀 한 땀 작업하지 않더라도 자동으로
-                            해결해준다는 점이 굉장히 매력적이었고, 이는 개발자
-                            역시 유저였다는 사실을 깨닫게 해주었습니다.
+                            리액트를 활용하면 일일이 한 땀 한 땀 작업하지
+                            않더라도 자동으로 해결해준다는 점이 굉장히
+                            매력적이었고, 이는 개발자 역시 유저였다는 사실을
+                            깨닫게 해주었습니다.
                         </span>
                         <span className={styles.text}>
                             새로웠죠. 수박 겉핥기로 익혔으면 자신감만 높아진다고
@@ -89,7 +90,7 @@ const AboutPresenter = (props) => {
                         </span>
                         <span className={styles.text}>
                             전공생이라고는 하나 고작 3학년 학부과정 마친 상황에,
-                            조금 안다고 스스로 모든걸 해결해야 한다는 근거없는
+                            조금 배웠답시고 스스로 모든걸 해결할 거라는 근거없는
                             자신감. 그러한 상황에서 제 눈을 뜨게 해 준 것이
                             리액트였습니다.
                         </span>
@@ -101,12 +102,12 @@ const AboutPresenter = (props) => {
                         </span>
                         <span className={styles.text}>
                             그저 흘러가는대로, 되는대로 취업하고 그저 그런
-                            개발자가 되거나 전공조차 살리지 못 했을지도
-                            모르겠습니다.
+                            개발자가 되었거나 어쩌면 전공조차 살리지 못 했을지도
+                            모르겠습니다. 하지만 지금은 그렇지 않습니다.
                         </span>
                         <span className={styles.text}>
-                            지금도 수박 겉핥기일 수도 있으나, 제가 하고 싶은
-                            일을 스스로 선택했다는 것. 이게 가장 중요하다고
+                            지금도 아직까진 수박 겉핥기지만, 제가 하고 싶은 일을
+                            스스로 선택했다는 것. 이게 가장 중요하다고
                             생각합니다.
                         </span>
                         <span className={styles.text}>
@@ -133,7 +134,7 @@ const AboutPresenter = (props) => {
                             2017.12 육군 병장 만기제대
                         </span>
                         <span className={styles.text}>
-                            2020.11 졸업작품 전시회 장려상 수상(영화 리뷰
+                            2020.12 졸업작품 전시회 장려상 수상(영화 리뷰
                             분석기, 프론트엔드)
                         </span>
                         <span className={styles.text}>
