@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React_portfolio/static/css/main.2747dc5a.chunk.css",
+    "main.css": "/React_portfolio/static/css/main.92fbfdcf.chunk.css",
     "main.js": "/React_portfolio/static/js/main.817445be.chunk.js",
     "main.js.map": "/React_portfolio/static/js/main.817445be.chunk.js.map",
     "runtime-main.js": "/React_portfolio/static/js/runtime-main.5cfcc80a.js",
@@ -8,7 +8,7 @@
     "static/js/2.6422f298.chunk.js": "/React_portfolio/static/js/2.6422f298.chunk.js",
     "static/js/2.6422f298.chunk.js.map": "/React_portfolio/static/js/2.6422f298.chunk.js.map",
     "index.html": "/React_portfolio/index.html",
-    "static/css/main.2747dc5a.chunk.css.map": "/React_portfolio/static/css/main.2747dc5a.chunk.css.map",
+    "static/css/main.92fbfdcf.chunk.css.map": "/React_portfolio/static/css/main.92fbfdcf.chunk.css.map",
     "static/js/2.6422f298.chunk.js.LICENSE.txt": "/React_portfolio/static/js/2.6422f298.chunk.js.LICENSE.txt",
     "static/media/1.5853a37a.png": "/React_portfolio/static/media/1.5853a37a.png",
     "static/media/1.7e6a4990.jpg": "/React_portfolio/static/media/1.7e6a4990.jpg",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.5cfcc80a.js",
     "static/js/2.6422f298.chunk.js",
-    "static/css/main.2747dc5a.chunk.css",
+    "static/css/main.92fbfdcf.chunk.css",
     "static/js/main.817445be.chunk.js"
   ]
 }
