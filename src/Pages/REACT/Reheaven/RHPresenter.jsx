@@ -71,6 +71,14 @@ const RHPresenter = (props) => {
                             인해 기간 내에 적용하기엔 어려울 것 같아 포기했던
                             점이 아쉬움으로 남았던 프로젝트입니다.
                         </span>
+                        <a
+                            href="https://github.com/saltylassi/reheaven-app"
+                            target="_blank"
+                        >
+                            <span className={styles.text}>
+                                https://github.com/saltylassi/reheaven-app
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>

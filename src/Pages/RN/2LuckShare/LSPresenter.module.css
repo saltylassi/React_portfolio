@@ -1,21 +1,21 @@
 .container {
     width: 100vw;
-    height: 100vh;
     background-color: black;
 }
 
 .contents {
     display: flex;
     flex-direction: row;
-    padding-top: 17rem;
+    padding-top: 10rem;
 }
 
 .wrapper {
-    width: 100vw;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 3rem 2rem;
 }
 
 /* .appImgContainer {
@@ -26,15 +26,15 @@
     margin: 0 auto;
 } */
 .appImgContainer {
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(26, 25, 25);
     position: relative;
     width: 42rem;
     display: flex;
     overflow-x: hidden;
-    border: 2rem solid rgb(68, 68, 68);
+    border: 2rem solid rgb(26, 25, 25);
     border-top: 0;
     border-bottom: 0;
-    padding: 1rem 0;
+    margin: 3rem 0;
 }
 
 .imgWrapper {
@@ -73,14 +73,30 @@
     top: 20rem;
 }
 
+.logoContainer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.logo {
+    width: 8rem;
+}
+
 .textContainer {
     display: flex;
     width: 80%;
-    margin: 4rem auto;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     color: white;
+}
+
+.textContainer:first-child {
+    align-items: center;
 }
 
 .title,
@@ -92,11 +108,10 @@
 .title {
     font-size: 3rem;
     font-weight: 600;
-    margin-bottom: 1.5rem;
 }
 
 .subTitle {
-    margin-top: 6rem;
+    margin-top: 1rem;
     font-size: 2rem;
     font-weight: 500;
 }
