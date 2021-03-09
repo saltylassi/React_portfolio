@@ -2,12 +2,12 @@
     width: 100vw;
     height: 100vh;
     background-color: black;
-    animation: fadeIn 2s ease-in-out;
 }
 
 .contents {
     display: flex;
     flex-direction: row;
+    padding-top: 17rem;
 }
 
 .textContainer {
@@ -40,29 +40,4 @@
 
 .text {
     margin-bottom: 0.3rem;
-}
-
-.logo {
-    position: absolute;
-    width: 10rem;
-    bottom: 5rem;
-    animation: rotateLogo 4s linear infinite;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes rotateLogo {
-    0% {
-        transform: rotateZ(0);
-    }
-    100% {
-        transform: rotateZ(360deg);
-    }
 }

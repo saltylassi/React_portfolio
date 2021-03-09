@@ -1,9 +1,145 @@
 .container {
-    background-color: white;
-    width: 100vw;
-    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    height: 17rem;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 1rem;
+    border: 3px solid gray;
+    border-top: 0;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    animation: changeBGColor 1s ease-in-out;
+    animation-fill-mode: forwards;
+    text-align: start;
+}
+
+.firstText {
+    font-weight: 700;
+    font-size: 2rem;
+    animation: firstAnim 4s linear;
+    animation-delay: 0.5s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.secondText {
+    font-weight: 700;
+    font-size: 2rem;
+    visibility: hidden;
+    animation: secondAnim 1s ease-in-out, fadeOut 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 2.3s, 5s;
+}
+
+.thirdText {
+    font-weight: 700;
+    font-size: 2rem;
+    visibility: hidden;
+    animation: secondAnim 1s ease-in-out, fadeOut 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 5.5s, 9s;
+}
+
+.title,
+.lastText {
+    font-weight: 700;
+    visibility: hidden;
+    animation: lastAnim 1s ease-in-out;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    align-self: flex-start;
+    margin-left: 0.5rem;
+}
+
+.title {
+    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+}
+
+.lastText {
+    margin-bottom: 0.2rem;
+    font-weight: 400;
+}
+
+@keyframes changeBGColor {
+    from {
+        background-color: black;
+    }
+    to {
+        background-color: white;
+    }
+}
+
+@keyframes firstAnim {
+    0% {
+        transform: translateX(-10rem);
+        visibility: visible;
+    }
+    20% {
+        transform: translateX(0);
+    }
+    30% {
+        transform: translateY(-1rem);
+    }
+    33% {
+        transform: translateY(0);
+    }
+    36% {
+        transform: translateY(-1rem);
+    }
+    39% {
+        transform: translateY(0);
+    }
+    60% {
+        transform: translateY(0);
+    }
+    70% {
+        transform: translateY(30rem);
+        visibility: visible;
+    }
+    100% {
+        transform: translateY(30rem);
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@keyframes secondAnim {
+    0% {
+        transform: translateY(-20rem);
+    }
+    80% {
+        visibility: visible;
+    }
+    100% {
+        visibility: visible;
+        display: none;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+    }
+    99% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes lastAnim {
+    0% {
+        transform: translateY(-3.3rem);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(-3.3rem);
+        opacity: 1;
+        visibility: visible;
+    }
 }

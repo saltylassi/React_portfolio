@@ -8,8 +8,8 @@ import {
 
 import Home from "./Pages/Home";
 import About from "./Pages/About";
-import Portfolio from "./Pages/REACT/Portfolio";
-import Reheaven from "./Pages/REACT/Reheaven";
+import Portfolio from "./Pages/React/Portfolio";
+import Reheaven from "./Pages/React/Reheaven";
 import TwoLuck from "./Pages/RN/2LuckShare";
 
 export default () => {
@@ -26,9 +26,3 @@ export default () => {
         </Router>
     );
 };
-
-// const HOME = "/";
-// const ABOUT = "/about";
-
-// const PROJECTS = "/projects";
-// const PROJECT_DETAIL = "/:id";

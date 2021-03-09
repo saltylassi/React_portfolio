@@ -12,14 +12,25 @@ const NavBar = (props) => {
 
     return (
         <div className={styles.container}>
-            <NavLabel title={"About"} contents={["about"]} />
-            <NavLabel title={"HTML"} contents={["kakaoClone"]} />
-            <NavLabel title={"JS"} contents={["youtube-js"]} />
+            <NavLabel
+                title={"Home"}
+                items={[{ contents: "Home", dest: "/" }]}
+            />
+            <NavLabel
+                title={"About"}
+                items={[{ contents: "about", dest: "/about" }]}
+            />
             <NavLabel
                 title={"REACT"}
-                contents={["reheaven", "youtube-react", "movies", "portfolio"]}
+                items={[
+                    { contents: "reheaven", dest: "/project/reheaven" },
+                    { contents: "portfolio", dest: "/project/portfolio" },
+                ]}
             />
-            <NavLabel title={"REACT NATIVE"} contents={["2LuckShare"]} />
+            <NavLabel
+                title={"REACT NATIVE"}
+                items={[{ contents: "2LuckShare", dest: "/project/twoluck" }]}
+            />
         </div>
     );
 };

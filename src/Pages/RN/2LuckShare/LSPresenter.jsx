@@ -1,7 +1,21 @@
 import React from "react";
+import NavBar from "../../../Components/navBar/navBar";
+import styles from "./LSPresenter.module.css";
 
 const LSPresenter = (props) => {
-    return <h1>LS</h1>;
+    return (
+        <div className={styles.container}>
+            <div className={styles.contents}>
+                <NavBar />
+                <div className={styles.textContainer}>
+                    <span className={styles.title}></span>
+                    <span className={styles.text}></span>
+                    <span className={styles.text}></span>
+                    <span className={styles.subTitle}></span>
+                </div>
+            </div>
+        </div>
+    );
 };
 
 export default LSPresenter;
