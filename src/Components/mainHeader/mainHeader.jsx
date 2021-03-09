@@ -8,11 +8,11 @@ const MainHeader = (props) => {
                 Hello! 이상민, 인사 드립니다 :)
             </span>
             <span className={styles.secondText}>
-                이 포트폴리오는 간단한 소개와 인적사항, 그리고 제가 진행했던
-                프로젝트를 담고 있습니다.
+                이 포트폴리오는 인적사항과 제가 진행했던 프로젝트를 담고
+                있습니다.
             </span>
             <span className={styles.thirdText}>
-                그럼 즐거운 시간 되시길 바라며, 이만 물러가겠습니다.
+                천천히 둘러보시고, 이쁘게 봐주시면 감사하겠습니다.
             </span>
             <span className={styles.title}>이상민</span>
             <span className={styles.lastText}>건국대학교 컴퓨터공학부</span>

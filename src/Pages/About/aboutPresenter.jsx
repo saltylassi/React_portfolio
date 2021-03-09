@@ -47,10 +47,10 @@ const AboutPresenter = (props) => {
                             싶었습니다.
                         </span>
                         <span className={styles.subTitle}>
-                            개발자도 유저가 될 수 있다
+                            개발자도 유저였다
                         </span>
                         <span className={styles.text}>
-                            인터넷이 보급되면서, 과거에 비해 웹페이지는 굉장히
+                            웹 기술의 발전과 함께, 과거에 비해 웹페이지는 굉장히
                             복잡해졌습니다.
                         </span>
                         <span className={styles.text}>
@@ -74,8 +74,8 @@ const AboutPresenter = (props) => {
                             해결책에서 그치지 않았기 때문입니다.
                         </span>
                         <span className={styles.text}>
-                            사실 리액트의 VirtualDOM이 아니더라도 렌더링을 줄일
-                            수 있는 방법은 있는 것으로 알고 있습니다. 하지만
+                            사실 VirtualDOM이 아니더라도 렌더링을 줄일 수 있는
+                            방법은 이미 존재하는 것으로 알고 있습니다. 하지만
                             해결책이 존재하는지는 중요하지 않았습니다.
                         </span>
                         <span className={styles.text}>
@@ -108,6 +108,10 @@ const AboutPresenter = (props) => {
                             지금도 수박 겉핥기일 수도 있으나, 제가 하고 싶은
                             일을 스스로 선택했다는 것. 이게 가장 중요하다고
                             생각합니다.
+                        </span>
+                        <span className={styles.text}>
+                            첫 발을 제 의지로 내딛었으니 앞으로는 발전할 일만
+                            남았습니다.
                         </span>
                     </div>
 

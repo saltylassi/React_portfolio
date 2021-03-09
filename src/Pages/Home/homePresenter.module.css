@@ -5,9 +5,18 @@
     animation: fadeIn 2s ease-in-out;
 }
 
+/* .contents {
+    display: flex;
+    flex-direction: row;
+} */
+
 .contents {
     display: flex;
     flex-direction: row;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 10.1s;
 }
 
 .textContainer {
@@ -43,9 +52,8 @@
 }
 
 .logo {
-    position: absolute;
     width: 10rem;
-    bottom: 5rem;
+    margin-top: 10rem;
     animation: rotateLogo 4s linear infinite;
 }
 

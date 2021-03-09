@@ -10,6 +10,7 @@ const NavLabel = ({ title, contents, dest, items }) => {
                 {items.map((item) => {
                     return (
                         <NavContents
+                            key={item.contents}
                             contents={item.contents}
                             dest={item.dest}
                         />

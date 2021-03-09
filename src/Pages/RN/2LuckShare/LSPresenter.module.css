@@ -10,6 +10,69 @@
     padding-top: 17rem;
 }
 
+.wrapper {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .appImgContainer {
+    display: grid;
+
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.5rem 0.5rem;
+    margin: 0 auto;
+} */
+.appImgContainer {
+    background-color: rgb(68, 68, 68);
+    position: relative;
+    width: 42rem;
+    display: flex;
+    overflow-x: hidden;
+    border: 2rem solid rgb(68, 68, 68);
+    border-top: 0;
+    border-bottom: 0;
+    padding: 1rem 0;
+}
+
+.imgWrapper {
+    display: flex;
+    overflow-x: hidden;
+    transition: all 0.3s linear;
+}
+
+.appImg {
+    width: 20rem;
+    height: 40rem;
+    margin: 0 0.5rem;
+}
+
+.sliderBtn {
+    background-color: transparent;
+    position: absolute;
+    border: 0;
+    outline: none;
+    width: 2rem;
+    height: 2.4rem;
+    font-size: 2rem;
+}
+
+.sliderBtn:active {
+    transform: scale(1.3);
+}
+
+.leftBtn {
+    left: 0.5rem;
+    top: 20rem;
+}
+
+.rightBtn {
+    right: 0.5rem;
+    top: 20rem;
+}
+
 .textContainer {
     display: flex;
     width: 80%;
