@@ -150,7 +150,7 @@ const LSPresenter = (props) => {
                     </div>
                     <div className={styles.logoContainer}>
                         <img
-                            src={reactNative}
+                            src={reactNativeLogo}
                             className={styles.logo}
                             alt="logo"
                         />
